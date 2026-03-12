@@ -1,0 +1,265 @@
+{
+  "video-calls": {
+    "id": "video-calls",
+    "title": {
+      "en": "Making Video Calls",
+      "zh": "视频通话"
+    },
+    "icon": "📱",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": {
+          "en": "Finding the Video Call App",
+          "zh": "找到视频通话应用"
+        },
+        "content": {
+          "en": "Look for the green icon with a phone. It might say FaceTime or WeChat. Tap it once to open.",
+          "zh": "寻找带有电话的绿色图标。它可能显示为FaceTime或微信。点击一次打开。"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Phone home screen with FaceTime/WeChat icon circled in green",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "What if I can't find the app?",
+            "Is FaceTime the same as WeChat?",
+            "Can you show me again?"
+          ],
+          "zh": [
+            "如果我找不到应用怎么办？",
+            "FaceTime和微信一样吗？",
+            "你能再给我看一遍吗？"
+          ]
+        }
+      },
+      {
+        "id": "step-2",
+        "title": {
+          "en": "Choosing Who to Call",
+          "zh": "选择要呼叫的人"
+        },
+        "content": {
+          "en": "Look at your list of contacts. Find the person you want to call. Tap their name once.",
+          "zh": "查看您的联系人列表。找到您想要呼叫的人。点击他们的名字一次。"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Contact list with one contact highlighted",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "How do I add a new contact?",
+            "What if I tap the wrong person?",
+            "Can I search for a name?"
+          ],
+          "zh": [
+            "如何添加新联系人？",
+            "如果我点错了人怎么办？",
+            "我可以搜索名字吗？"
+          ]
+        }
+      },
+      {
+        "id": "step-3",
+        "title": {
+          "en": "Starting the Video Call",
+          "zh": "开始视频通话"
+        },
+        "content": {
+          "en": "Look for the video camera button. It's usually green or blue. Tap it once to start the call.",
+          "zh": "寻找视频摄像头按钮。它通常是绿色或蓝色的。点击一次开始通话。"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Contact details screen with video call button circled",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "What if they don't answer?",
+            "Can I turn off my camera?",
+            "How long can I talk?"
+          ],
+          "zh": [
+            "如果他们不接听怎么办？",
+            "我可以关闭摄像头吗？",
+            "我可以通话多长时间？"
+          ]
+        }
+      },
+      {
+        "id": "step-4",
+        "title": {
+          "en": "During the Call",
+          "zh": "通话期间"
+        },
+        "content": {
+          "en": "You'll see their face on the screen. Speak normally. They can see and hear you too!",
+          "zh": "您会在屏幕上看到他们的脸。正常说话。他们也能看到和听到您！"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Active video call screen showing remote person",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "Why can't I see them clearly?",
+            "How do I make it louder?",
+            "Can I switch cameras?"
+          ],
+          "zh": [
+            "为什么我看不清他们？",
+            "如何调大音量？",
+            "我可以切换摄像头吗？"
+          ]
+        }
+      },
+      {
+        "id": "step-5",
+        "title": {
+          "en": "Ending the Call",
+          "zh": "结束通话"
+        },
+        "content": {
+          "en": "When you're done talking, look for the red button. Tap it once to hang up. That's it!",
+          "zh": "当您说完话后，寻找红色按钮。点击一次挂断。就这样！"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Video call screen with red end call button circled",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "What if I tap the wrong button?",
+            "Can I call them back?",
+            "Did I do something wrong?"
+          ],
+          "zh": [
+            "如果我点错了按钮怎么办？",
+            "我可以回拨吗？",
+            "我做错了什么吗？"
+          ]
+        }
+      }
+    ]
+  },
+  "maps": {
+    "id": "maps",
+    "title": {
+      "en": "Using Maps",
+      "zh": "使用地图"
+    },
+    "icon": "🗺️",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": {
+          "en": "Opening Google Maps",
+          "zh": "打开谷歌地图"
+        },
+        "content": {
+          "en": "Find the colorful map icon on your phone. It has red, yellow, blue, and green colors. Tap it once.",
+          "zh": "在手机上找到彩色地图图标。它有红色、黄色、蓝色和绿色。点击一次。"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Phone home screen with Google Maps icon circled",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "What if I don't have this app?",
+            "Is this the same as Apple Maps?",
+            "Do I need internet?"
+          ],
+          "zh": [
+            "如果我没有这个应用怎么办？",
+            "这和苹果地图一样吗？",
+            "我需要互联网吗？"
+          ]
+        }
+      },
+      {
+        "id": "step-2",
+        "title": {
+          "en": "Searching for a Place",
+          "zh": "搜索地点"
+        },
+        "content": {
+          "en": "At the top, you'll see a search box. Tap it once. Type the place you want to go, like 'library' or 'grocery store'.",
+          "zh": "在顶部，您会看到一个搜索框。点击一次。输入您想去的地方，比如图书馆或超市。"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Google Maps with search bar highlighted and keyboard visible",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "What if I spell it wrong?",
+            "Can I search by address?",
+            "How do I use my voice?"
+          ],
+          "zh": [
+            "如果我拼错了怎么办？",
+            "我可以按地址搜索吗？",
+            "如何使用语音？"
+          ]
+        }
+      },
+      {
+        "id": "step-3",
+        "title": {
+          "en": "Starting Navigation",
+          "zh": "开始导航"
+        },
+        "content": {
+          "en": "After you find your place, tap the blue 'Directions' button. Then tap the blue 'Start' button at the bottom.",
+          "zh": "找到您的地点后，点击蓝色的路线按钮。然后点击底部的蓝色开始按钮。"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Google Maps showing directions button and start navigation button",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "Can I choose walking or driving?",
+            "What if I want to go later?",
+            "How do I see the whole route?"
+          ],
+          "zh": [
+            "我可以选择步行或开车吗？",
+            "如果我想稍后去怎么办？",
+            "如何查看整个路线？"
+          ]
+        }
+      },
+      {
+        "id": "step-4",
+        "title": {
+          "en": "Following Directions",
+          "zh": "跟随指示"
+        },
+        "content": {
+          "en": "The map will show you where to go. Listen to the voice telling you when to turn. The blue dot is you!",
+          "zh": "地图会告诉您去哪里。听语音告诉您何时转弯。蓝点就是您！"
+        },
+        "visual": {
+          "description": "SCREENSHOT: Active navigation screen with blue dot and route highlighted",
+          "aspectRatio": "16:9"
+        },
+        "suggestedQuestions": {
+          "en": [
+            "What if I miss a turn?",
+            "Can I make it louder?",
+            "What if I get lost?"
+          ],
+          "zh": [
+            "如果我错过了转弯怎么办？",
+            "我可以调大音量吗？",
+            "如果我迷路了怎么办？"
+          ]
+        }
+      }
+    ]
+  }
+}

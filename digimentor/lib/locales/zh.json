@@ -1,0 +1,79 @@
+{
+  "appName": "重启",
+  "tagline": "重启永远不晚",
+  "home": {
+    "title": "您想学习什么？",
+    "modules": {
+      "videoCalls": "视频通话",
+      "sendPhotos": "发送照片",
+      "maps": "使用地图",
+      "staySafe": "网络安全"
+    }
+  },
+  "buttons": {
+    "next": "下一步",
+    "back": "返回",
+    "home": "回到主页",
+    "help": "帮助",
+    "question": "我有问题"
+  },
+  "panic": {
+    "label": "帮助",
+    "message": "没问题！让我们回到主菜单。"
+  },
+  "celebration": {
+    "title": "做得好！",
+    "completed": "您完成了：",
+    "nextLesson": "下一课"
+  },
+  "errors": {
+    "aiUnavailable": "我现在遇到了一些问题。请稍后再试。",
+    "connectionError": "无法连接。请检查您的网络连接。",
+    "invalidCode": "找不到该代码。请检查后重试。",
+    "moduleLoadError": "加载此课程时遇到问题。让我们试试另一个。",
+    "navigationError": "出了点问题。让我们回到主菜单。"
+  },
+  "modules": {
+    "videoCalls": {
+      "title": "视频通话",
+      "icon": "📱"
+    },
+    "sendPhotos": {
+      "title": "发送照片",
+      "icon": "📸"
+    },
+    "maps": {
+      "title": "使用地图",
+      "icon": "🗺️"
+    },
+    "staySafe": {
+      "title": "网络安全",
+      "icon": "🛡️"
+    }
+  },
+  "aiTutor": {
+    "title": "AI 导师",
+    "suggestedQuestions": "建议的问题：",
+    "placeholder": "输入您的问题...",
+    "outOfScope": "这是一个很好的问题，可以问您的家人！让我们回到课程。"
+  },
+  "onboarding": {
+    "welcome": "欢迎来到重启！",
+    "getStarted": "开始",
+    "chooseFirst": "您想先学什么？"
+  },
+  "familyPortal": {
+    "title": "重启家庭门户",
+    "trackingFor": "跟踪进度：",
+    "progressSummary": "进度摘要",
+    "modulesCompleted": "个模块已完成",
+    "currentlyLearning": "当前学习：",
+    "lastActive": "最后活动：",
+    "sendEncouragement": "发送鼓励",
+    "moduleProgress": "模块进度：",
+    "complete": "完成",
+    "notStarted": "未开始",
+    "enterCode": "输入访问代码",
+    "invalidCodeError": "访问代码无效。请重试。"
+  }
+}

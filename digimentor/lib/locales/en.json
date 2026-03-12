@@ -1,0 +1,79 @@
+{
+  "appName": "ReBooted",
+  "tagline": "Never too late to reboot",
+  "home": {
+    "title": "What would you like to learn?",
+    "modules": {
+      "videoCalls": "Video Calls",
+      "sendPhotos": "Send Photos",
+      "maps": "Using Maps",
+      "staySafe": "Stay Safe Online"
+    }
+  },
+  "buttons": {
+    "next": "Next",
+    "back": "Back",
+    "home": "Back to Home",
+    "help": "Help",
+    "question": "I have a question"
+  },
+  "panic": {
+    "label": "Help",
+    "message": "No problem! Let's go back to the main menu."
+  },
+  "celebration": {
+    "title": "Great job!",
+    "completed": "You completed:",
+    "nextLesson": "Try Next Lesson"
+  },
+  "errors": {
+    "aiUnavailable": "I'm having trouble right now. Please try again in a moment.",
+    "connectionError": "Unable to connect. Please check your internet connection.",
+    "invalidCode": "We couldn't find that code. Please check and try again.",
+    "moduleLoadError": "We're having trouble loading this lesson. Let's try another one.",
+    "navigationError": "Something went wrong. Let's go back to the main menu."
+  },
+  "modules": {
+    "videoCalls": {
+      "title": "Making Video Calls",
+      "icon": "📱"
+    },
+    "sendPhotos": {
+      "title": "Sending Photos",
+      "icon": "📸"
+    },
+    "maps": {
+      "title": "Using Maps",
+      "icon": "🗺️"
+    },
+    "staySafe": {
+      "title": "Stay Safe Online",
+      "icon": "🛡️"
+    }
+  },
+  "aiTutor": {
+    "title": "AI Tutor",
+    "suggestedQuestions": "Suggested Questions:",
+    "placeholder": "Type your question...",
+    "outOfScope": "That's a great question for your family helper! Let's get back to our lesson."
+  },
+  "onboarding": {
+    "welcome": "Welcome to ReBooted!",
+    "getStarted": "Get Started",
+    "chooseFirst": "What do you want to learn first?"
+  },
+  "familyPortal": {
+    "title": "ReBooted Family Portal",
+    "trackingFor": "Tracking progress for:",
+    "progressSummary": "Progress Summary",
+    "modulesCompleted": "modules completed",
+    "currentlyLearning": "Currently learning:",
+    "lastActive": "Last active:",
+    "sendEncouragement": "Send Encouragement",
+    "moduleProgress": "Module Progress:",
+    "complete": "Complete",
+    "notStarted": "Not started",
+    "enterCode": "Enter Access Code",
+    "invalidCodeError": "Invalid access code. Please try again."
+  }
+}
