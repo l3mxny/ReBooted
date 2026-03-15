@@ -188,8 +188,8 @@ This implementation plan breaks down the ReBooted learning platform into increme
     - **Property 39: Module Completion State Update**
     - **Validates: Requirements 3.6, 16.1, 16.6**
 
-- [ ] 9. Implement celebration screen
-  - [ ] 9.1 Create CelebrationScreen component
+- [x] 9. Implement celebration screen
+  - [x] 9.1 Create CelebrationScreen component
     - Display 🎉 emoji (72px) with gentle pulse animation
     - Show "Great job! 做得好!" in bilingual format (32px, 24px)
     - Include module name that was completed
@@ -197,12 +197,12 @@ This implementation plan breaks down the ReBooted learning platform into increme
     - Use warm gradient background (warm white to soft gold)
     - _Requirements: 16.1, 16.2, 16.3, 16.4, 16.5_
   
-  - [ ]* 9.2 Write property tests for celebration screen
+  - [x]* 9.2 Write property tests for celebration screen
     - **Property 37: Celebration Screen Bilingual Text**
     - **Property 38: Celebration Screen Navigation Buttons**
     - **Validates: Requirements 16.2, 16.4, 16.5**
   
-  - [ ]* 9.3 Write unit test for celebration screen
+  - [x]* 9.3 Write unit test for celebration screen
     - Test that "Great job! 做得好!" text is displayed
     - Test that both navigation buttons are present
     - _Requirements: 16.3_
@@ -216,15 +216,15 @@ This implementation plan breaks down the ReBooted learning platform into increme
   - Ensure all tests pass, ask the user if questions arise.
 
 
-- [ ] 11. Implement AI tutor integration
-  - [ ] 11.1 Set up Anthropic Claude API client
+- [x] 11. Implement AI tutor integration
+  - [x] 11.1 Set up Anthropic Claude API client
     - Install @anthropic-ai/sdk package
     - Create API client wrapper with error handling
     - Configure to use claude-sonnet-4-5 model
     - Implement retry logic with exponential backoff (3 attempts)
     - _Requirements: 6.4_
   
-  - [ ] 11.2 Create AI tutor system prompt template
+  - [x] 11.2 Create AI tutor system prompt template
     - Enforce plain language, no jargon, 4th grade reading level
     - Limit responses to 2-3 sentences maximum
     - Always end with encouragement
@@ -233,13 +233,13 @@ This implementation plan breaks down the ReBooted learning platform into increme
     - Redirect out-of-scope questions: "That's a great question for your family helper! Let's get back to our lesson."
     - _Requirements: 15.1, 15.2, 15.4, 15.7_
   
-  - [ ]* 11.3 Write unit tests for AI system prompt
+  - [x]* 11.3 Write unit tests for AI system prompt
     - Test system prompt includes plain language instruction
     - Test system prompt includes jargon avoidance instruction
     - Test out-of-scope redirect message
     - _Requirements: 15.1, 15.2, 15.7_
   
-  - [ ] 11.4 Create AITutorPanel component
+  - [x] 11.4 Create AITutorPanel component
     - Slide-in panel from right (300ms ease-out)
     - Display 3 suggested questions relevant to current step
     - Implement chat interface with message history
@@ -248,13 +248,13 @@ This implementation plan breaks down the ReBooted learning platform into increme
     - Include close button (✕) at top right
     - _Requirements: 6.1, 6.2, 6.3_
   
-  - [ ]* 11.5 Write property tests for AI tutor panel
+  - [x]* 11.5 Write property tests for AI tutor panel
     - **Property 12: AI Tutor Question Button Presence**
     - **Property 13: AI Tutor Panel Opening**
     - **Property 14: Suggested Questions Count**
     - **Validates: Requirements 6.1, 6.2, 6.3**
   
-  - [ ] 11.6 Implement AI tutor API integration
+  - [x] 11.6 Implement AI tutor API integration
     - Send question with system prompt and context to Claude API
     - Parse and display response in chat interface
     - Handle API errors gracefully with friendly message
@@ -262,43 +262,43 @@ This implementation plan breaks down the ReBooted learning platform into increme
     - Validate response length (max 4 sentences)
     - _Requirements: 6.4, 6.5, 6.6, 6.9, 15.4_
   
-  - [ ]* 11.7 Write property tests for AI tutor responses
+  - [x]* 11.7 Write property tests for AI tutor responses
     - **Property 3: AI Tutor Language Matching**
     - **Property 15: AI Tutor API Response**
     - **Property 16: AI Response Length Limit**
     - **Validates: Requirements 1.5, 6.4, 6.6, 6.9, 15.4, 15.5, 15.6**
   
-  - [ ]* 11.8 Write unit test for AI API error handling
+  - [x]* 11.8 Write unit test for AI API error handling
     - Test that API failure shows "I'm having trouble right now" message
     - Test that error is logged without showing technical details
     - _Requirements: 18.4, 18.6_
 
-- [ ] 12. Implement onboarding flow
-  - [ ] 12.1 Create WelcomeScreen component
+- [x] 12. Implement onboarding flow
+  - [x] 12.1 Create WelcomeScreen component
     - Display large welcome text with warm colors
     - Show language toggle prominently
     - Include "Get Started" button to proceed to quiz
     - Use minimum 22px font size
     - _Requirements: 2.1, 2.2, 2.6_
   
-  - [ ]* 12.2 Write unit test for welcome screen
+  - [x]* 12.2 Write unit test for welcome screen
     - Test that welcome screen displays on first visit
     - Test that language toggle is present
     - _Requirements: 2.1, 2.2_
   
-  - [ ] 12.3 Create OnboardingQuiz component
+  - [x] 12.3 Create OnboardingQuiz component
     - Display question "What do you want to learn first?"
     - Show 4 large icon buttons for module selection
     - Each button navigates directly to selected module
     - Mark onboarding as complete in localStorage
     - _Requirements: 2.3, 2.4, 2.5_
   
-  - [ ]* 12.4 Write unit test for onboarding quiz
+  - [x]* 12.4 Write unit test for onboarding quiz
     - Test that exactly 4 module buttons are displayed
     - Test that buttons have correct labels and icons
     - _Requirements: 2.4_
   
-  - [ ]* 12.5 Write property test for font size accessibility
+  - [x]* 12.5 Write property test for font size accessibility
     - **Property 5: Font Size Accessibility**
     - **Validates: Requirements 2.6, 10.1**
 
@@ -518,45 +518,45 @@ This implementation plan breaks down the ReBooted learning platform into increme
     - Ensure animations don't disorient users
     - _Requirements: 17.2_
 
-- [ ] 21. Create remaining module content
-  - [ ] 21.1 Implement "Send Photos" module
+- [x] 21. Create remaining module content
+  - [x] 21.1 Implement "Send Photos" module
     - Create 3-5 steps teaching photo sharing
     - Include bilingual content and suggested questions
     - Add visual placeholders for each step
     - _Requirements: 12.2_
   
-  - [ ] 21.2 Implement "Stay Safe Online" module
+  - [x] 21.2 Implement "Stay Safe Online" module
     - Create 3-5 steps teaching online safety
     - Include bilingual content and suggested questions
     - Add visual placeholders for each step
     - _Requirements: 12.2_
   
-  - [ ]* 21.3 Write unit tests for new modules
+  - [x]* 21.3 Write unit tests for new modules
     - Test that Send Photos module has 3-5 steps
     - Test that Stay Safe module has 3-5 steps
     - Test that all steps have required fields
 
-- [ ] 22. Final integration and polish
-  - [ ] 22.1 Implement gentle animations
+- [x] 22. Final integration and polish
+  - [x] 22.1 Implement gentle animations
     - Add pulse animation to celebration emoji (1.5s infinite)
     - Add scale animation to button hovers (1.05x, 300ms)
     - Add fade-in for screen transitions (300ms)
     - Ensure all animations are slow and gentle
     - _Requirements: 17.2_
   
-  - [ ] 22.2 Audit and fix font sizes
+  - [x] 22.2 Audit and fix font sizes
     - Verify all text is >= 18px
     - Ensure primary content is >= 22px
     - Fix any violations found
     - _Requirements: 10.1_
   
-  - [ ] 22.3 Audit and fix color contrast
+  - [x] 22.3 Audit and fix color contrast
     - Run axe DevTools on all screens
     - Verify all text meets WCAG AA contrast requirements
     - Fix any contrast issues found
     - _Requirements: 10.2_
   
-  - [ ] 22.4 Test on multiple devices
+  - [x] 22.4 Test on multiple devices
     - Test on mobile phones (iOS and Android)
     - Test on tablets
     - Test with different screen sizes

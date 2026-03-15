@@ -19,21 +19,29 @@ export default function PageContainer({
   const { t } = useLanguage();
 
   return (
-    <div className={`min-h-screen bg-[#FDFBF7] p-8 ${className}`}>
-      {showBackButton && (
-        <button
-          onClick={() => router.back()}
-          className="mb-6 flex items-center gap-2 text-senior-base text-dark-text hover:scale-105 transition-all duration-300"
-          style={{ minWidth: '48px', minHeight: '48px' }}
-          aria-label="Go back to previous page"
-        >
-          <span className="text-2xl">←</span>
-          <span className="font-medium">{t('buttons.back')}</span>
-        </button>
-      )}
-      
-      <div className="max-w-4xl mx-auto">
-        {children}
+    <div className={`min-h-screen ${className}`} style={{ backgroundColor: '#FFF8F0' }}>
+      <div className="p-8 pb-32">
+        {showBackButton && (
+          <button
+            onClick={() => router.back()}
+            className="mb-6 flex items-center gap-2 hover:scale-105 transition-all duration-300 bg-white rounded-full px-6 py-3 font-semibold shadow-md"
+            style={{ 
+              minWidth: '48px', 
+              minHeight: '48px', 
+              fontSize: '20px',
+              color: '#FF8C42',
+              fontFamily: 'Nunito',
+            }}
+            aria-label="Go back to previous page"
+          >
+            <span className="text-2xl">←</span>
+            <span>{t('buttons.back')}</span>
+          </button>
+        )}
+        
+        <div className="max-w-4xl mx-auto pb-32">
+          {children}
+        </div>
       </div>
     </div>
   );

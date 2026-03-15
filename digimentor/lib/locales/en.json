@@ -3,11 +3,36 @@
   "tagline": "Never too late to reboot",
   "home": {
     "title": "What would you like to learn?",
+    "journeyTitle": "Your Learning Journey",
+    "weekLabel": "WEEK",
+    "ofComplete": "of",
+    "complete": "complete",
+    "completeWeekFirst": "Complete Week {n} first",
+    "startOver": "Start Over / 重新开始",
+    "startOverConfirm": "Are you sure? This will reset all your progress.\n您确定吗？这将重置您的所有进度。",
+    "weeks": {
+      "1": { "theme": "Getting Started" },
+      "2": { "theme": "Getting Around" },
+      "3": { "theme": "Going to the Post Office" },
+      "4": { "theme": "Going to a Restaurant" }
+    },
     "modules": {
-      "videoCalls": "Video Calls",
-      "sendPhotos": "Send Photos",
+      "video-calls": "Video Calls",
+      "send-photos": "Send Photos",
       "maps": "Using Maps",
-      "staySafe": "Stay Safe Online"
+      "stay-safe": "Stay Safe",
+      "using-transit": "Using Transit",
+      "ordering-ride": "Ordering a Ride",
+      "saving-locations": "Saving Locations",
+      "finding-bus-schedules": "Bus Schedules",
+      "tracking-package": "Tracking Package",
+      "finding-post-office": "Find Post Office",
+      "paying-bills": "Paying Bills",
+      "filling-forms": "Filling Forms",
+      "finding-restaurants": "Find Restaurants",
+      "reading-reviews": "Reading Reviews",
+      "making-reservation": "Make Reservation",
+      "ordering-delivery": "Order Delivery"
     }
   },
   "buttons": {
@@ -18,13 +43,14 @@
     "question": "I have a question"
   },
   "panic": {
-    "label": "Help",
+    "label": "Help / 帮助",
     "message": "No problem! Let's go back to the main menu."
   },
   "celebration": {
     "title": "Great job!",
     "completed": "You completed:",
-    "nextLesson": "Try Next Lesson"
+    "nextLesson": "Try Next Lesson",
+    "backHome": "Back to Home / 回到主页"
   },
   "errors": {
     "aiUnavailable": "I'm having trouble right now. Please try again in a moment.",
@@ -32,24 +58,6 @@
     "invalidCode": "We couldn't find that code. Please check and try again.",
     "moduleLoadError": "We're having trouble loading this lesson. Let's try another one.",
     "navigationError": "Something went wrong. Let's go back to the main menu."
-  },
-  "modules": {
-    "videoCalls": {
-      "title": "Making Video Calls",
-      "icon": "📱"
-    },
-    "sendPhotos": {
-      "title": "Sending Photos",
-      "icon": "📸"
-    },
-    "maps": {
-      "title": "Using Maps",
-      "icon": "🗺️"
-    },
-    "staySafe": {
-      "title": "Stay Safe Online",
-      "icon": "🛡️"
-    }
   },
   "aiTutor": {
     "title": "AI Tutor",

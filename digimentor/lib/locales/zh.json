@@ -1,13 +1,39 @@
 {
-  "appName": "重启",
-  "tagline": "重启永远不晚",
+  "appName": "ReBooted",
+  "tagline": "永远不会太晚重新开始",
   "home": {
     "title": "您想学习什么？",
+    "journeyTitle": "您的学习之旅",
+    "weekLabel": "第",
+    "weekLabelSuffix": "周",
+    "ofComplete": "共",
+    "complete": "已完成",
+    "completeWeekFirst": "请先完成第 {n} 周",
+    "startOver": "重新开始 / Start Over",
+    "startOverConfirm": "您确定吗？这将重置您的所有进度。\nAre you sure? This will reset all your progress.",
+    "weeks": {
+      "1": { "theme": "入门基础" },
+      "2": { "theme": "出行指南" },
+      "3": { "theme": "邮局服务" },
+      "4": { "theme": "餐厅美食" }
+    },
     "modules": {
-      "videoCalls": "视频通话",
-      "sendPhotos": "发送照片",
+      "video-calls": "视频通话",
+      "send-photos": "发送照片",
       "maps": "使用地图",
-      "staySafe": "网络安全"
+      "stay-safe": "网络安全",
+      "using-transit": "公共交通",
+      "ordering-ride": "叫车服务",
+      "saving-locations": "保存地点",
+      "finding-bus-schedules": "公交时刻表",
+      "tracking-package": "追踪包裹",
+      "finding-post-office": "找到邮局",
+      "paying-bills": "网上缴费",
+      "filling-forms": "填写表格",
+      "finding-restaurants": "找餐厅",
+      "reading-reviews": "阅读评价",
+      "making-reservation": "预订餐厅",
+      "ordering-delivery": "外卖订餐"
     }
   },
   "buttons": {
@@ -18,13 +44,14 @@
     "question": "我有问题"
   },
   "panic": {
-    "label": "帮助",
+    "label": "帮助 / Help",
     "message": "没问题！让我们回到主菜单。"
   },
   "celebration": {
     "title": "做得好！",
     "completed": "您完成了：",
-    "nextLesson": "下一课"
+    "nextLesson": "下一课",
+    "backHome": "回到主页 / Back to Home"
   },
   "errors": {
     "aiUnavailable": "我现在遇到了一些问题。请稍后再试。",
@@ -33,24 +60,6 @@
     "moduleLoadError": "加载此课程时遇到问题。让我们试试另一个。",
     "navigationError": "出了点问题。让我们回到主菜单。"
   },
-  "modules": {
-    "videoCalls": {
-      "title": "视频通话",
-      "icon": "📱"
-    },
-    "sendPhotos": {
-      "title": "发送照片",
-      "icon": "📸"
-    },
-    "maps": {
-      "title": "使用地图",
-      "icon": "🗺️"
-    },
-    "staySafe": {
-      "title": "网络安全",
-      "icon": "🛡️"
-    }
-  },
   "aiTutor": {
     "title": "AI 导师",
     "suggestedQuestions": "建议的问题：",
@@ -58,12 +67,12 @@
     "outOfScope": "这是一个很好的问题，可以问您的家人！让我们回到课程。"
   },
   "onboarding": {
-    "welcome": "欢迎来到重启！",
+    "welcome": "欢迎来到 ReBooted！",
     "getStarted": "开始",
     "chooseFirst": "您想先学什么？"
   },
   "familyPortal": {
-    "title": "重启家庭门户",
+    "title": "ReBooted 家庭门户",
     "trackingFor": "跟踪进度：",
     "progressSummary": "进度摘要",
     "modulesCompleted": "个模块已完成",

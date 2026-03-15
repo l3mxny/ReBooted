@@ -1,264 +1,564 @@
 {
   "video-calls": {
     "id": "video-calls",
-    "title": {
-      "en": "Making Video Calls",
-      "zh": "视频通话"
-    },
+    "title": { "en": "Making Video Calls", "zh": "视频通话" },
     "icon": "📱",
     "steps": [
       {
         "id": "step-1",
-        "title": {
-          "en": "Finding the Video Call App",
-          "zh": "找到视频通话应用"
-        },
-        "content": {
-          "en": "Look for the green icon with a phone. It might say FaceTime or WeChat. Tap it once to open.",
-          "zh": "寻找带有电话的绿色图标。它可能显示为FaceTime或微信。点击一次打开。"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Phone home screen with FaceTime/WeChat icon circled in green",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "What if I can't find the app?",
-            "Is FaceTime the same as WeChat?",
-            "Can you show me again?"
-          ],
-          "zh": [
-            "如果我找不到应用怎么办？",
-            "FaceTime和微信一样吗？",
-            "你能再给我看一遍吗？"
-          ]
-        }
+        "title": { "en": "Finding the Video Call App", "zh": "找到视频通话应用" },
+        "content": { "en": "Look for the green icon with a phone. It might say FaceTime or WeChat. Tap it once to open.", "zh": "寻找带有电话的绿色图标。它可能显示为FaceTime或微信。点击一次打开。" },
+        "visual": { "description": "Phone home screen with FaceTime/WeChat icon", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I can't find the app?", "Is FaceTime the same as WeChat?", "Can you show me again?"], "zh": ["如果我找不到应用怎么办？", "FaceTime和微信一样吗？", "你能再给我看一遍吗？"] }
       },
       {
         "id": "step-2",
-        "title": {
-          "en": "Choosing Who to Call",
-          "zh": "选择要呼叫的人"
-        },
-        "content": {
-          "en": "Look at your list of contacts. Find the person you want to call. Tap their name once.",
-          "zh": "查看您的联系人列表。找到您想要呼叫的人。点击他们的名字一次。"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Contact list with one contact highlighted",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "How do I add a new contact?",
-            "What if I tap the wrong person?",
-            "Can I search for a name?"
-          ],
-          "zh": [
-            "如何添加新联系人？",
-            "如果我点错了人怎么办？",
-            "我可以搜索名字吗？"
-          ]
-        }
+        "title": { "en": "Choosing Who to Call", "zh": "选择要呼叫的人" },
+        "content": { "en": "Look at your list of contacts. Find the person you want to call. Tap their name once.", "zh": "查看您的联系人列表。找到您想要呼叫的人。点击他们的名字一次。" },
+        "visual": { "description": "Contact list with one contact highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I add a new contact?", "What if I tap the wrong person?", "Can I search for a name?"], "zh": ["如何添加新联系人？", "如果我点错了人怎么办？", "我可以搜索名字吗？"] }
       },
       {
         "id": "step-3",
-        "title": {
-          "en": "Starting the Video Call",
-          "zh": "开始视频通话"
-        },
-        "content": {
-          "en": "Look for the video camera button. It's usually green or blue. Tap it once to start the call.",
-          "zh": "寻找视频摄像头按钮。它通常是绿色或蓝色的。点击一次开始通话。"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Contact details screen with video call button circled",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "What if they don't answer?",
-            "Can I turn off my camera?",
-            "How long can I talk?"
-          ],
-          "zh": [
-            "如果他们不接听怎么办？",
-            "我可以关闭摄像头吗？",
-            "我可以通话多长时间？"
-          ]
-        }
+        "title": { "en": "Starting the Video Call", "zh": "开始视频通话" },
+        "content": { "en": "Look for the video camera button. It's usually green or blue. Tap it once to start the call.", "zh": "寻找视频摄像头按钮。它通常是绿色或蓝色的。点击一次开始通话。" },
+        "visual": { "description": "Contact details screen with video call button", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if they don't answer?", "Can I turn off my camera?", "How long can I talk?"], "zh": ["如果他们不接听怎么办？", "我可以关闭摄像头吗？", "我可以通话多长时间？"] }
       },
       {
         "id": "step-4",
-        "title": {
-          "en": "During the Call",
-          "zh": "通话期间"
-        },
-        "content": {
-          "en": "You'll see their face on the screen. Speak normally. They can see and hear you too!",
-          "zh": "您会在屏幕上看到他们的脸。正常说话。他们也能看到和听到您！"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Active video call screen showing remote person",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "Why can't I see them clearly?",
-            "How do I make it louder?",
-            "Can I switch cameras?"
-          ],
-          "zh": [
-            "为什么我看不清他们？",
-            "如何调大音量？",
-            "我可以切换摄像头吗？"
-          ]
-        }
+        "title": { "en": "During the Call", "zh": "通话期间" },
+        "content": { "en": "You'll see their face on the screen. Speak normally. They can see and hear you too!", "zh": "您会在屏幕上看到他们的脸。正常说话。他们也能看到和听到您！" },
+        "visual": { "description": "Active video call screen showing remote person", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Why can't I see them clearly?", "How do I make it louder?", "Can I switch cameras?"], "zh": ["为什么我看不清他们？", "如何调大音量？", "我可以切换摄像头吗？"] }
       },
       {
         "id": "step-5",
-        "title": {
-          "en": "Ending the Call",
-          "zh": "结束通话"
-        },
-        "content": {
-          "en": "When you're done talking, look for the red button. Tap it once to hang up. That's it!",
-          "zh": "当您说完话后，寻找红色按钮。点击一次挂断。就这样！"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Video call screen with red end call button circled",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "What if I tap the wrong button?",
-            "Can I call them back?",
-            "Did I do something wrong?"
-          ],
-          "zh": [
-            "如果我点错了按钮怎么办？",
-            "我可以回拨吗？",
-            "我做错了什么吗？"
-          ]
-        }
+        "title": { "en": "Ending the Call", "zh": "结束通话" },
+        "content": { "en": "When you're done talking, look for the red button. Tap it once to hang up. That's it!", "zh": "当您说完话后，寻找红色按钮。点击一次挂断。就这样！" },
+        "visual": { "description": "Video call screen with red end call button", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I tap the wrong button?", "Can I call them back?", "Did I do something wrong?"], "zh": ["如果我点错了按钮怎么办？", "我可以回拨吗？", "我做错了什么吗？"] }
+      }
+    ]
+  },
+  "send-photos": {
+    "id": "send-photos",
+    "title": { "en": "Sending Photos", "zh": "发送照片" },
+    "icon": "📸",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Taking a Photo", "zh": "拍照" },
+        "content": { "en": "Open your Camera app. Point at what you want to photograph. Tap the big white circle button at the bottom.", "zh": "打开相机应用。对准您想拍摄的东西。点击底部的大白色圆圈按钮。" },
+        "visual": { "description": "Camera app with capture button highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Where is the Camera app?", "How do I know if the photo was taken?", "Can I see the photo I just took?"], "zh": ["相机应用在哪里？", "我怎么知道照片拍好了？", "我可以看到刚拍的照片吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Finding Your Photos", "zh": "查找您的照片" },
+        "content": { "en": "Open the Photos app. It looks like a colorful flower. Your newest photos are at the bottom.", "zh": "打开照片应用。它看起来像一朵彩色的花。您最新的照片在底部。" },
+        "visual": { "description": "Photos app icon and photo library view", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I can't find my photo?", "How do I know which photo is newest?", "Can I delete a photo?"], "zh": ["如果我找不到照片怎么办？", "我怎么知道哪张照片是最新的？", "我可以删除照片吗？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Sharing a Photo", "zh": "分享照片" },
+        "content": { "en": "Tap the photo you want to send. Tap the share button (it looks like a box with an arrow). Choose Messages or WeChat.", "zh": "点击您想发送的照片。点击分享按钮（看起来像一个带箭头的盒子）。选择信息或微信。" },
+        "visual": { "description": "Photo with share button highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What does the share button look like?", "Can I send to multiple people?", "What if I pick the wrong person?"], "zh": ["分享按钮是什么样子的？", "我可以发送给多个人吗？", "如果我选错了人怎么办？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Sending the Photo", "zh": "发送照片" },
+        "content": { "en": "Choose who to send to from your contacts. The photo will appear in the message. Tap Send. Done!", "zh": "从联系人中选择要发送给谁。照片将出现在消息中。点击发送。完成！" },
+        "visual": { "description": "Message compose screen with photo attached", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I know it was sent?", "Can I add a message with the photo?", "What if it doesn't send?"], "zh": ["我怎么知道已经发送了？", "我可以在照片上添加消息吗？", "如果发送不出去怎么办？"] }
       }
     ]
   },
   "maps": {
     "id": "maps",
-    "title": {
-      "en": "Using Maps",
-      "zh": "使用地图"
-    },
+    "title": { "en": "Using Maps", "zh": "使用地图" },
     "icon": "🗺️",
     "steps": [
       {
         "id": "step-1",
-        "title": {
-          "en": "Opening Google Maps",
-          "zh": "打开谷歌地图"
-        },
-        "content": {
-          "en": "Find the colorful map icon on your phone. It has red, yellow, blue, and green colors. Tap it once.",
-          "zh": "在手机上找到彩色地图图标。它有红色、黄色、蓝色和绿色。点击一次。"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Phone home screen with Google Maps icon circled",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "What if I don't have this app?",
-            "Is this the same as Apple Maps?",
-            "Do I need internet?"
-          ],
-          "zh": [
-            "如果我没有这个应用怎么办？",
-            "这和苹果地图一样吗？",
-            "我需要互联网吗？"
-          ]
-        }
+        "title": { "en": "Opening Google Maps", "zh": "打开谷歌地图" },
+        "content": { "en": "Find the colorful map icon on your phone. It has red, yellow, blue, and green colors. Tap it once.", "zh": "在手机上找到彩色地图图标。它有红色、黄色、蓝色和绿色。点击一次。" },
+        "visual": { "description": "Phone home screen with Google Maps icon", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I don't have this app?", "Is this the same as Apple Maps?", "Do I need internet?"], "zh": ["如果我没有这个应用怎么办？", "这和苹果地图一样吗？", "我需要互联网吗？"] }
       },
       {
         "id": "step-2",
-        "title": {
-          "en": "Searching for a Place",
-          "zh": "搜索地点"
-        },
-        "content": {
-          "en": "At the top, you'll see a search box. Tap it once. Type the place you want to go, like 'library' or 'grocery store'.",
-          "zh": "在顶部，您会看到一个搜索框。点击一次。输入您想去的地方，比如图书馆或超市。"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Google Maps with search bar highlighted and keyboard visible",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "What if I spell it wrong?",
-            "Can I search by address?",
-            "How do I use my voice?"
-          ],
-          "zh": [
-            "如果我拼错了怎么办？",
-            "我可以按地址搜索吗？",
-            "如何使用语音？"
-          ]
-        }
+        "title": { "en": "Searching for a Place", "zh": "搜索地点" },
+        "content": { "en": "At the top, you'll see a search box. Tap it once. Type the place you want to go, like 'library' or 'grocery store'.", "zh": "在顶部，您会看到一个搜索框。点击一次。输入您想去的地方，比如图书馆或超市。" },
+        "visual": { "description": "Google Maps with search bar highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I spell it wrong?", "Can I search by address?", "How do I use my voice?"], "zh": ["如果我拼错了怎么办？", "我可以按地址搜索吗？", "如何使用语音？"] }
       },
       {
         "id": "step-3",
-        "title": {
-          "en": "Starting Navigation",
-          "zh": "开始导航"
-        },
-        "content": {
-          "en": "After you find your place, tap the blue 'Directions' button. Then tap the blue 'Start' button at the bottom.",
-          "zh": "找到您的地点后，点击蓝色的路线按钮。然后点击底部的蓝色开始按钮。"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Google Maps showing directions button and start navigation button",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "Can I choose walking or driving?",
-            "What if I want to go later?",
-            "How do I see the whole route?"
-          ],
-          "zh": [
-            "我可以选择步行或开车吗？",
-            "如果我想稍后去怎么办？",
-            "如何查看整个路线？"
-          ]
-        }
+        "title": { "en": "Starting Navigation", "zh": "开始导航" },
+        "content": { "en": "After you find your place, tap the blue Directions button. Then tap the blue Start button at the bottom.", "zh": "找到您的地点后，点击蓝色的路线按钮。然后点击底部的蓝色开始按钮。" },
+        "visual": { "description": "Google Maps showing directions and start button", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Can I choose walking or driving?", "What if I want to go later?", "How do I see the whole route?"], "zh": ["我可以选择步行或开车吗？", "如果我想稍后去怎么办？", "如何查看整个路线？"] }
       },
       {
         "id": "step-4",
-        "title": {
-          "en": "Following Directions",
-          "zh": "跟随指示"
-        },
-        "content": {
-          "en": "The map will show you where to go. Listen to the voice telling you when to turn. The blue dot is you!",
-          "zh": "地图会告诉您去哪里。听语音告诉您何时转弯。蓝点就是您！"
-        },
-        "visual": {
-          "description": "SCREENSHOT: Active navigation screen with blue dot and route highlighted",
-          "aspectRatio": "16:9"
-        },
-        "suggestedQuestions": {
-          "en": [
-            "What if I miss a turn?",
-            "Can I make it louder?",
-            "What if I get lost?"
-          ],
-          "zh": [
-            "如果我错过了转弯怎么办？",
-            "我可以调大音量吗？",
-            "如果我迷路了怎么办？"
-          ]
-        }
+        "title": { "en": "Following Directions", "zh": "跟随指示" },
+        "content": { "en": "The map will show you where to go. Listen to the voice telling you when to turn. The blue dot is you!", "zh": "地图会告诉您去哪里。听语音告诉您何时转弯。蓝点就是您！" },
+        "visual": { "description": "Active navigation screen with blue dot and route", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I miss a turn?", "Can I make it louder?", "What if I get lost?"], "zh": ["如果我错过了转弯怎么办？", "我可以调大音量吗？", "如果我迷路了怎么办？"] }
+      }
+    ]
+  },
+  "stay-safe": {
+    "id": "stay-safe",
+    "title": { "en": "Stay Safe Online", "zh": "网络安全" },
+    "icon": "🛡️",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Recognizing Scam Messages", "zh": "识别诈骗信息" },
+        "content": { "en": "Be careful of messages asking for money or personal information. Real companies never ask for passwords by text or email.", "zh": "小心要求提供金钱或个人信息的消息。真正的公司永远不会通过短信或电子邮件索要密码。" },
+        "visual": { "description": "Example of scam message with warning signs", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I know if a message is fake?", "What should I do if I get a suspicious message?", "Can scammers steal my information?"], "zh": ["我怎么知道消息是假的？", "如果我收到可疑消息该怎么办？", "骗子能窃取我的信息吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Protecting Your Passwords", "zh": "保护您的密码" },
+        "content": { "en": "Never share your passwords with anyone. Use different passwords for different apps. Write them down in a safe place at home.", "zh": "永远不要与任何人分享您的密码。为不同的应用使用不同的密码。把它们写在家里的安全地方。" },
+        "visual": { "description": "Password field with security tips", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What makes a good password?", "What if I forget my password?", "Is it safe to write passwords down?"], "zh": ["什么是好密码？", "如果我忘记密码怎么办？", "写下密码安全吗？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Safe Browsing", "zh": "安全浏览" },
+        "content": { "en": "Only click on links from people you know. Look for the lock icon in your browser. If something seems too good to be true, it probably is.", "zh": "只点击您认识的人发来的链接。在浏览器中查找锁图标。如果某事看起来好得令人难以置信，那可能就是假的。" },
+        "visual": { "description": "Browser with security lock icon highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What does the lock icon mean?", "What if I accidentally click a bad link?", "How do I know if a website is safe?"], "zh": ["锁图标是什么意思？", "如果我不小心点击了坏链接怎么办？", "我怎么知道网站是否安全？"] }
+      }
+    ]
+  },
+
+  "using-transit": {
+    "id": "using-transit",
+    "title": { "en": "Using Transit", "zh": "公共交通" },
+    "icon": "🚌",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Open Google Maps", "zh": "打开谷歌地图" },
+        "content": { "en": "Find the Google Maps app on your phone. It looks like a colorful map pin. Tap it once to open it.", "zh": "在手机上找到谷歌地图应用。它看起来像一个彩色的地图图钉。点击一次打开它。" },
+        "visual": { "description": "Google Maps app icon on phone screen", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I don't have Google Maps?", "Do I need wifi to use it?", "Is it free?"], "zh": ["如果我没有谷歌地图怎么办？", "我需要wifi才能使用吗？", "它是免费的吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Search for a Bus Route", "zh": "搜索公交路线" },
+        "content": { "en": "Tap the search bar at the top. Type where you want to go. For example: Community Center or Grocery Store.", "zh": "点击顶部的搜索栏。输入您想去的地方。例如：社区中心或杂货店。" },
+        "visual": { "description": "Google Maps search bar with destination typed", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I don't know the exact address?", "Can I search in Chinese?", "What if nothing comes up?"], "zh": ["如果我不知道确切地址怎么办？", "我可以用中文搜索吗？", "如果没有结果怎么办？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Choose Bus Directions", "zh": "选择公交路线" },
+        "content": { "en": "After searching, tap the blue Directions button. Then tap the bus icon at the top to see bus routes.", "zh": "搜索后，点击蓝色的路线按钮。然后点击顶部的公交图标查看公交路线。" },
+        "visual": { "description": "Google Maps directions screen with bus icon selected", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Where is the bus icon?", "What if there are no buses?", "Can I see walking directions too?"], "zh": ["公交图标在哪里？", "如果没有公交车怎么办？", "我也可以看步行路线吗？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Read the Bus Instructions", "zh": "阅读公交指示" },
+        "content": { "en": "Google Maps will show you step by step which bus to take, where to get on, and where to get off. Read each step carefully.", "zh": "谷歌地图将逐步显示您乘坐哪路公交车，在哪里上车，在哪里下车。仔细阅读每个步骤。" },
+        "visual": { "description": "Step by step bus directions on Google Maps", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I miss my stop?", "How do I know when to get off?", "Can I save these directions?"], "zh": ["如果我错过了站怎么办？", "我怎么知道什么时候下车？", "我可以保存这些路线吗？"] }
+      }
+    ]
+  },
+  "ordering-ride": {
+    "id": "ordering-ride",
+    "title": { "en": "Ordering a Ride", "zh": "叫车" },
+    "icon": "🚕",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Find the Uber or Lyft App", "zh": "找到Uber或Lyft应用" },
+        "content": { "en": "Look for the Uber app (black icon) or Lyft app (pink icon) on your phone. If you do not have one, ask a family member to help you download it.", "zh": "在手机上找到Uber应用（黑色图标）或Lyft应用（粉色图标）。如果没有，请家人帮您下载。" },
+        "visual": { "description": "Uber and Lyft app icons on phone screen", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Which app is better, Uber or Lyft?", "Is it safe to use these apps?", "Do I need a credit card?"], "zh": ["Uber和Lyft哪个更好？", "使用这些应用安全吗？", "我需要信用卡吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Enter Where You Want to Go", "zh": "输入目的地" },
+        "content": { "en": "Tap the search bar that says Where to? Type your destination. For example: 123 Main Street or City Hospital.", "zh": "点击显示'去哪里？'的搜索栏。输入您的目的地。例如：123主街或市立医院。" },
+        "visual": { "description": "Uber app with destination search bar", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I don't know the address?", "Can I use a landmark instead?", "What if I type it wrong?"], "zh": ["如果我不知道地址怎么办？", "我可以用地标代替吗？", "如果我输错了怎么办？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Choose Your Ride", "zh": "选择乘车方式" },
+        "content": { "en": "You will see different ride options and prices. UberX or Lyft Standard is the most affordable. Tap it to select.", "zh": "您将看到不同的乘车选项和价格。UberX或Lyft标准版是最实惠的。点击选择。" },
+        "visual": { "description": "Uber ride options screen with prices", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What is the difference between ride types?", "Why are prices different?", "Can I see the price before I confirm?"], "zh": ["不同乘车类型有什么区别？", "为什么价格不同？", "我可以在确认前看到价格吗？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Wait for Your Driver", "zh": "等待司机" },
+        "content": { "en": "After confirming, a driver will come to you. The app shows their name, car color, and how many minutes away they are. Wait at the pickup location.", "zh": "确认后，司机将来接您。应用程序显示他们的姓名、车辆颜色以及还有几分钟到达。在接送地点等候。" },
+        "visual": { "description": "Uber waiting screen showing driver details and map", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I know which car is mine?", "What if the driver cancels?", "Can I call the driver?"], "zh": ["我怎么知道哪辆车是我的？", "如果司机取消了怎么办？", "我可以给司机打电话吗？"] }
+      }
+    ]
+  },
+  "saving-locations": {
+    "id": "saving-locations",
+    "title": { "en": "Saving Favorite Locations", "zh": "保存常用地点" },
+    "icon": "📍",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Open Google Maps", "zh": "打开谷歌地图" },
+        "content": { "en": "Open the Google Maps app on your phone. Make sure you are connected to wifi or data.", "zh": "在手机上打开谷歌地图应用。确保您已连接到wifi或数据网络。" },
+        "visual": { "description": "Google Maps app open on phone", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I know if I have wifi?", "Can I use this without internet?", "What if the app is slow?"], "zh": ["我怎么知道我有wifi？", "没有网络可以使用吗？", "如果应用很慢怎么办？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Search for the Place", "zh": "搜索地点" },
+        "content": { "en": "Type the name or address of a place you visit often. For example: your doctor's office, the grocery store, or your child's home.", "zh": "输入您经常去的地方的名称或地址。例如：您的医生诊所、杂货店或您孩子的家。" },
+        "visual": { "description": "Google Maps search results showing a location", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I can't find the place?", "Can I search by phone number?", "What if there are many results?"], "zh": ["如果我找不到地方怎么办？", "我可以按电话号码搜索吗？", "如果有很多结果怎么办？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Save It as Favorite", "zh": "保存为收藏" },
+        "content": { "en": "Tap the place name to open it. Then tap the Save button (it looks like a bookmark). Choose Favorites to save it.", "zh": "点击地点名称打开它。然后点击保存按钮（看起来像书签）。选择收藏夹进行保存。" },
+        "visual": { "description": "Google Maps place details with Save button highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Where is the Save button?", "Can I give it a nickname?", "How many places can I save?"], "zh": ["保存按钮在哪里？", "我可以给它起个昵称吗？", "我可以保存多少个地方？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Find Your Saved Places", "zh": "查找已保存的地点" },
+        "content": { "en": "Next time, tap the Saved button at the bottom of Google Maps. Your favorite places will be listed there ready to navigate to.", "zh": "下次，点击谷歌地图底部的已保存按钮。您收藏的地点将列在那里，随时可以导航。" },
+        "visual": { "description": "Google Maps Saved places list", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Where is the Saved button?", "Can I delete a saved place?", "Can I share a saved place?"], "zh": ["已保存按钮在哪里？", "我可以删除已保存的地点吗？", "我可以分享已保存的地点吗？"] }
+      }
+    ]
+  },
+  "finding-bus-schedules": {
+    "id": "finding-bus-schedules",
+    "title": { "en": "Finding Bus Schedules", "zh": "查找公交时刻表" },
+    "icon": "🔍",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Open Google Maps", "zh": "打开谷歌地图" },
+        "content": { "en": "Open Google Maps. We will use it to find out exactly when the next bus is coming.", "zh": "打开谷歌地图。我们将用它来查找下一班公交车的确切时间。" },
+        "visual": { "description": "Google Maps app open on phone", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Is Google Maps free?", "Do I need an account?", "Can I use Apple Maps instead?"], "zh": ["谷歌地图是免费的吗？", "我需要账户吗？", "我可以用苹果地图代替吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Search for a Bus Stop", "zh": "搜索公交站" },
+        "content": { "en": "Type the name of a nearby bus stop or just your current address in the search bar.", "zh": "在搜索栏中输入附近公交站的名称或您当前的地址。" },
+        "visual": { "description": "Google Maps search bar with bus stop typed", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I find my current address?", "What if I don't know the bus stop name?", "Can I use my current location?"], "zh": ["如何找到我当前的地址？", "如果我不知道公交站名称怎么办？", "我可以使用我的当前位置吗？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Tap Directions then Bus", "zh": "点击路线然后选公交" },
+        "content": { "en": "Tap the blue Directions button. Then tap the bus icon. Google Maps will show you the next buses and their arrival times.", "zh": "点击蓝色的路线按钮。然后点击公交图标。谷歌地图将显示下一班公交车及其到达时间。" },
+        "visual": { "description": "Google Maps with bus directions and arrival times", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What does the bus icon look like?", "What if there are no buses shown?", "Can I see tomorrow's schedule?"], "zh": ["公交图标是什么样子的？", "如果没有显示公交车怎么办？", "我可以看明天的时刻表吗？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Read the Schedule", "zh": "阅读时刻表" },
+        "content": { "en": "You will see a list of departure times. The first one shown is the soonest bus. Screenshot this page so you can refer to it later without internet.", "zh": "您将看到一个出发时间列表。显示的第一个是最近的公交车。截图此页面，以便以后没有网络时参考。" },
+        "visual": { "description": "Bus schedule list with departure times", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I take a screenshot?", "What if the bus is late?", "How often do buses come?"], "zh": ["如何截图？", "如果公交车晚了怎么办？", "公交车多久来一班？"] }
+      }
+    ]
+  },
+
+  "tracking-package": {
+    "id": "tracking-package",
+    "title": { "en": "Tracking a Package", "zh": "追踪包裹" },
+    "icon": "📦",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Find Your Tracking Number", "zh": "找到追踪号码" },
+        "content": { "en": "When someone sends you a package, you get a tracking number by email or text. It is usually a long number. Save this number.", "zh": "当有人给您寄包裹时，您会通过电子邮件或短信收到一个追踪号码。通常是一个长数字。保存这个号码。" },
+        "visual": { "description": "Email showing tracking number highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Where do I find the tracking number?", "What if I deleted the email?", "What does a tracking number look like?"], "zh": ["在哪里找到追踪号码？", "如果我删除了电子邮件怎么办？", "追踪号码是什么样子的？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Open a Browser", "zh": "打开浏览器" },
+        "content": { "en": "Open Safari or Chrome on your phone. Tap the address bar at the top and type: usps.com for US Mail or ups.com for UPS packages.", "zh": "在手机上打开Safari或Chrome。点击顶部的地址栏，输入：usps.com（美国邮政）或ups.com（UPS包裹）。" },
+        "visual": { "description": "Browser address bar with usps.com typed", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I know which carrier sent it?", "What is Safari?", "What if I use a different carrier?"], "zh": ["我怎么知道是哪个快递公司寄的？", "什么是Safari？", "如果我用不同的快递公司怎么办？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Enter Your Tracking Number", "zh": "输入追踪号码" },
+        "content": { "en": "Find the Track a Package box on the website. Carefully type your tracking number into the box. Then tap Track or Search.", "zh": "在网站上找到追踪包裹框。仔细输入您的追踪号码。然后点击追踪或搜索。" },
+        "visual": { "description": "USPS website with tracking number input box", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I type it wrong?", "Can I copy and paste the number?", "What if the website doesn't work?"], "zh": ["如果我输错了怎么办？", "我可以复制粘贴号码吗？", "如果网站不工作怎么办？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Read the Status", "zh": "查看状态" },
+        "content": { "en": "The website will show where your package is right now. Look for: Out for Delivery (coming today!) or Delivered (check your door!).", "zh": "网站将显示您的包裹现在在哪里。查找：正在派送（今天送到！）或已送达（检查您的门口！）。" },
+        "visual": { "description": "Package tracking status page showing delivery status", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if it says delayed?", "What if I missed the delivery?", "How long does shipping usually take?"], "zh": ["如果显示延误怎么办？", "如果我错过了送货怎么办？", "运输通常需要多长时间？"] }
+      }
+    ]
+  },
+  "finding-post-office": {
+    "id": "finding-post-office",
+    "title": { "en": "Finding Your Post Office", "zh": "找到邮局" },
+    "icon": "🏣",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Open Google Maps", "zh": "打开谷歌地图" },
+        "content": { "en": "Open the Google Maps app on your phone.", "zh": "在手机上打开谷歌地图应用。" },
+        "visual": { "description": "Google Maps app open on phone", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I don't have Google Maps?", "Can I use a different map app?", "Do I need internet?"], "zh": ["如果我没有谷歌地图怎么办？", "我可以使用其他地图应用吗？", "我需要网络吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Search for Post Office", "zh": "搜索邮局" },
+        "content": { "en": "Tap the search bar and type: Post Office near me. Google Maps will show all the post offices close to where you are right now.", "zh": "点击搜索栏，输入：附近的邮局。谷歌地图将显示您附近所有的邮局。" },
+        "visual": { "description": "Google Maps showing post office search results", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if there are no results?", "How far away are they?", "Can I see them on the map?"], "zh": ["如果没有结果怎么办？", "它们有多远？", "我可以在地图上看到它们吗？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Check the Hours", "zh": "查看营业时间" },
+        "content": { "en": "Tap on a post office to see its details. Look for the Hours section to make sure it is open before you go. Most close at 5pm on weekdays.", "zh": "点击邮局查看其详细信息。查看营业时间部分，确保在您去之前它是开着的。大多数工作日5点关门。" },
+        "visual": { "description": "Post office details page showing hours", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Are post offices open on weekends?", "What if it says temporarily closed?", "Can I call ahead?"], "zh": ["邮局周末开门吗？", "如果显示临时关闭怎么办？", "我可以提前打电话吗？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Get Directions", "zh": "获取路线" },
+        "content": { "en": "Tap the blue Directions button. Google Maps will show you how to walk or drive to the post office step by step.", "zh": "点击蓝色的路线按钮。谷歌地图将逐步显示您步行或驾车前往邮局的路线。" },
+        "visual": { "description": "Google Maps directions to post office", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Can I walk there?", "Is there parking?", "How long will it take?"], "zh": ["我可以步行去吗？", "有停车位吗？", "需要多长时间？"] }
+      }
+    ]
+  },
+  "paying-bills": {
+    "id": "paying-bills",
+    "title": { "en": "Paying Bills Online", "zh": "网上缴费" },
+    "icon": "💳",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Find Your Bill", "zh": "找到您的账单" },
+        "content": { "en": "Look at your paper bill or email bill. Find the company website address. It usually looks like: www.company.com. Write it down.", "zh": "查看您的纸质账单或电子邮件账单。找到公司网站地址。它通常看起来像：www.company.com。写下来。" },
+        "visual": { "description": "Paper bill with website address highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I can't find the website?", "What if I only have a paper bill?", "Can I pay by phone instead?"], "zh": ["如果我找不到网站怎么办？", "如果我只有纸质账单怎么办？", "我可以用电话付款吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Go to the Website", "zh": "访问网站" },
+        "content": { "en": "Open Safari or Chrome. Type the company website in the address bar. For example: www.pepco.com for electricity or www.washingtongas.com for gas.", "zh": "打开Safari或Chrome。在地址栏中输入公司网站。例如：www.pepco.com（电费）或www.washingtongas.com（燃气费）。" },
+        "visual": { "description": "Browser showing utility company website", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What is the address bar?", "What if I type it wrong?", "Is the website safe?"], "zh": ["什么是地址栏？", "如果我输错了怎么办？", "网站安全吗？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Find Pay My Bill", "zh": "找到缴费按钮" },
+        "content": { "en": "Look for a button that says Pay My Bill or Make a Payment. It is usually easy to find on the main page. Tap it.", "zh": "查找显示缴费或付款的按钮。它通常在主页上很容易找到。点击它。" },
+        "visual": { "description": "Utility website with Pay My Bill button highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I can't find the button?", "Do I need to create an account?", "Is it safe to pay online?"], "zh": ["如果我找不到按钮怎么办？", "我需要创建账户吗？", "在线支付安全吗？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Enter Your Information", "zh": "输入您的信息" },
+        "content": { "en": "You will need your account number from your bill and your payment method. Ask a family member to help you the first time so they can show you how.", "zh": "您需要账单上的账号和付款方式。第一次请让家人帮助您，这样他们可以教您怎么做。" },
+        "visual": { "description": "Online payment form with account number field", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Where is my account number?", "Can I pay with a check?", "Will I get a confirmation?"], "zh": ["我的账号在哪里？", "我可以用支票付款吗？", "我会收到确认吗？"] }
+      }
+    ]
+  },
+  "filling-forms": {
+    "id": "filling-forms",
+    "title": { "en": "Filling Out Online Forms", "zh": "填写网上表格" },
+    "icon": "📝",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Read the Form First", "zh": "先阅读表格" },
+        "content": { "en": "Before filling anything in, read the whole form first. Look at what information they are asking for so you can prepare your documents.", "zh": "在填写任何内容之前，先阅读整个表格。查看他们要求提供什么信息，以便您准备好文件。" },
+        "visual": { "description": "Online form showing all fields before filling", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What documents do I need?", "What if I don't understand a question?", "Can I save and come back later?"], "zh": ["我需要哪些文件？", "如果我不理解某个问题怎么办？", "我可以保存后再回来吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Tap on Each Box", "zh": "点击每个框" },
+        "content": { "en": "Tap on the first empty box. Your keyboard will appear. Type your information carefully. Use the Next button on your keyboard to move to the next box.", "zh": "点击第一个空框。键盘将出现。仔细输入您的信息。使用键盘上的下一步按钮移到下一个框。" },
+        "visual": { "description": "Online form with keyboard visible and first field selected", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I make a mistake?", "How do I delete what I typed?", "What if the keyboard covers the form?"], "zh": ["如果我犯了错误怎么办？", "如何删除我输入的内容？", "如果键盘遮住了表格怎么办？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Check Your Information", "zh": "检查您的信息" },
+        "content": { "en": "Before submitting, read everything you typed. Check that your name, address, and phone number are spelled correctly. Mistakes can cause problems later.", "zh": "提交前，阅读您输入的所有内容。检查您的姓名、地址和电话号码是否拼写正确。错误可能会在以后造成问题。" },
+        "visual": { "description": "Completed form being reviewed before submission", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I find a mistake?", "Can someone check it for me?", "What happens if I submit wrong information?"], "zh": ["如果我发现错误怎么办？", "有人可以帮我检查吗？", "如果我提交了错误信息会怎样？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Submit the Form", "zh": "提交表格" },
+        "content": { "en": "When you are ready, tap the Submit or Send button. You should see a confirmation message or get an email. Take a screenshot as proof.", "zh": "准备好后，点击提交或发送按钮。您应该会看到确认消息或收到电子邮件。截图作为证明。" },
+        "visual": { "description": "Form submission confirmation screen", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I take a screenshot?", "What if I don't get a confirmation?", "Can I submit the same form twice?"], "zh": ["如何截图？", "如果我没有收到确认怎么办？", "我可以提交同一个表格两次吗？"] }
+      }
+    ]
+  },
+
+  "finding-restaurants": {
+    "id": "finding-restaurants",
+    "title": { "en": "Finding Restaurants", "zh": "找餐厅" },
+    "icon": "🍜",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Open Google Maps or Yelp", "zh": "打开谷歌地图或Yelp" },
+        "content": { "en": "Open Google Maps or the Yelp app on your phone. Both apps help you find restaurants near you. Yelp has more reviews from real customers.", "zh": "在手机上打开谷歌地图或Yelp应用。两个应用都能帮您找到附近的餐厅。Yelp有更多真实顾客的评价。" },
+        "visual": { "description": "Google Maps and Yelp app icons on phone", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What is Yelp?", "Which app is better?", "Is Yelp free?"], "zh": ["什么是Yelp？", "哪个应用更好？", "Yelp是免费的吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Search for Food Type", "zh": "搜索食物类型" },
+        "content": { "en": "Type what kind of food you want. For example: Chinese food near me or dim sum or Vietnamese restaurant. You can search in Chinese too!", "zh": "输入您想要的食物类型。例如：附近的中餐厅、点心或越南餐厅。您也可以用中文搜索！" },
+        "visual": { "description": "Search results showing Chinese restaurants nearby", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Can I filter by price?", "Can I search by distance?", "What if I want a specific dish?"], "zh": ["我可以按价格筛选吗？", "我可以按距离搜索吗？", "如果我想要特定菜肴怎么办？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Look at the Results", "zh": "查看结果" },
+        "content": { "en": "You will see a list of restaurants with star ratings and distance. Higher stars mean better reviews. Look for restaurants with 4 stars or more.", "zh": "您将看到带有星级评分和距离的餐厅列表。星级越高意味着评价越好。寻找4星或以上的餐厅。" },
+        "visual": { "description": "Restaurant list with star ratings and distances", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What do the stars mean?", "How many reviews is enough?", "What if all restaurants have low ratings?"], "zh": ["星星是什么意思？", "多少评价才够？", "如果所有餐厅评分都低怎么办？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Check Hours and Address", "zh": "查看营业时间和地址" },
+        "content": { "en": "Tap on a restaurant you like. Check that it is Open Now and read the address. You can tap Directions to get there using Google Maps.", "zh": "点击您喜欢的餐厅。检查它是否正在营业，并阅读地址。您可以点击路线使用谷歌地图前往。" },
+        "visual": { "description": "Restaurant details page showing hours and address", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if it says closed?", "How far is it?", "Can I call the restaurant?"], "zh": ["如果显示关闭怎么办？", "有多远？", "我可以给餐厅打电话吗？"] }
+      }
+    ]
+  },
+  "reading-reviews": {
+    "id": "reading-reviews",
+    "title": { "en": "Reading Reviews", "zh": "阅读评价" },
+    "icon": "⭐",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Find the Reviews Section", "zh": "找到评价部分" },
+        "content": { "en": "After tapping on a restaurant in Yelp or Google Maps, scroll down. You will see a section called Reviews with star ratings and comments from other customers.", "zh": "在Yelp或谷歌地图中点击餐厅后，向下滚动。您将看到一个名为评价的部分，其中有其他顾客的星级评分和评论。" },
+        "visual": { "description": "Restaurant page scrolled to reviews section", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I scroll down?", "How many reviews should I read?", "Are all reviews real?"], "zh": ["如何向下滚动？", "我应该读多少评价？", "所有评价都是真实的吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Read Recent Reviews", "zh": "阅读最新评价" },
+        "content": { "en": "Look at the most recent reviews first. They tell you how the restaurant is RIGHT NOW. Old reviews from 2 years ago may not be accurate anymore.", "zh": "首先阅读最新的评价。它们告诉您餐厅现在的情况。两年前的旧评价可能不再准确。" },
+        "visual": { "description": "Reviews sorted by most recent with dates visible", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I sort by newest?", "What if there are no recent reviews?", "How old is too old?"], "zh": ["如何按最新排序？", "如果没有最新评价怎么办？", "多旧算太旧？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Look for Important Details", "zh": "寻找重要细节" },
+        "content": { "en": "Good reviews mention: delicious food, friendly service, clean restaurant. Be careful if many reviews mention: slow service, wrong orders, or dirty tables.", "zh": "好评提到：美味的食物、友好的服务、干净的餐厅。如果许多评价提到：服务慢、上错菜或桌子脏，请注意。" },
+        "visual": { "description": "Review with positive and negative keywords highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if reviews are mixed?", "Should I trust 1-star reviews?", "What if I can't read English reviews?"], "zh": ["如果评价好坏参半怎么办？", "我应该相信1星评价吗？", "如果我看不懂英文评价怎么办？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Check the Photos", "zh": "查看照片" },
+        "content": { "en": "Scroll through the photos customers posted. Real photos show you what the food actually looks like. If the food photos look good, that is a great sign!", "zh": "浏览顾客发布的照片。真实照片向您展示食物实际上是什么样子。如果食物照片看起来不错，那是一个好兆头！" },
+        "visual": { "description": "Customer food photos in restaurant gallery", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I see more photos?", "Are the photos real?", "What if there are no photos?"], "zh": ["如何查看更多照片？", "照片是真实的吗？", "如果没有照片怎么办？"] }
+      }
+    ]
+  },
+  "making-reservation": {
+    "id": "making-reservation",
+    "title": { "en": "Making a Reservation", "zh": "预订餐厅" },
+    "icon": "📱",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Find the Restaurant's Phone Number", "zh": "找到餐厅电话号码" },
+        "content": { "en": "On Google Maps or Yelp, tap the restaurant name. Look for a phone number with a phone icon next to it. Tap the number to call directly.", "zh": "在谷歌地图或Yelp上，点击餐厅名称。查找旁边有电话图标的电话号码。点击号码直接拨打。" },
+        "visual": { "description": "Restaurant details page with phone number highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if there is no phone number?", "What do I say when they answer?", "What if no one answers?"], "zh": ["如果没有电话号码怎么办？", "他们接听时我说什么？", "如果没有人接听怎么办？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Use OpenTable if Available", "zh": "使用OpenTable（如果有）" },
+        "content": { "en": "Some restaurants have a Reserve or Book a Table button on their page. Tap it to use OpenTable — an app that lets you book a table without calling.", "zh": "一些餐厅在其页面上有预订或订桌按钮。点击它使用OpenTable——一个让您无需打电话就能订桌的应用。" },
+        "visual": { "description": "Restaurant page with Reserve button highlighted", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What is OpenTable?", "Is OpenTable free?", "Do I need an account?"], "zh": ["什么是OpenTable？", "OpenTable是免费的吗？", "我需要账户吗？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Choose Your Details", "zh": "选择您的详情" },
+        "content": { "en": "Select the date, time, and number of people in your party. For example: Saturday, 6:00 PM, 2 people. Then tap Find a Table or Search.", "zh": "选择日期、时间和用餐人数。例如：周六晚上6点，2人。然后点击查找餐桌或搜索。" },
+        "visual": { "description": "OpenTable booking form with date, time, party size", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if my preferred time is not available?", "Can I book for a large group?", "Can I request a specific table?"], "zh": ["如果我首选的时间不可用怎么办？", "我可以为大型团体预订吗？", "我可以要求特定的桌子吗？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Confirm Your Reservation", "zh": "确认您的预订" },
+        "content": { "en": "You will get a confirmation by email or text message. Save this message! If you need to cancel, do it at least 2 hours before your reservation time to be polite.", "zh": "您将通过电子邮件或短信收到确认。保存此消息！如果您需要取消，请至少提前2小时取消，这样比较礼貌。" },
+        "visual": { "description": "Reservation confirmation screen with details", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["What if I don't get a confirmation?", "How do I cancel?", "What if I am late?"], "zh": ["如果我没有收到确认怎么办？", "如何取消？", "如果我迟到了怎么办？"] }
+      }
+    ]
+  },
+  "ordering-delivery": {
+    "id": "ordering-delivery",
+    "title": { "en": "Ordering Delivery", "zh": "外卖订餐" },
+    "icon": "🥡",
+    "steps": [
+      {
+        "id": "step-1",
+        "title": { "en": "Open DoorDash or Uber Eats", "zh": "打开DoorDash或Uber Eats" },
+        "content": { "en": "Find the DoorDash app (red icon) or Uber Eats app (black icon) on your phone. Ask a family member to help you set it up with your address and payment the first time.", "zh": "在手机上找到DoorDash应用（红色图标）或Uber Eats应用（黑色图标）。第一次请让家人帮您设置地址和付款方式。" },
+        "visual": { "description": "DoorDash and Uber Eats app icons on phone", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["Which app is better?", "Is delivery expensive?", "Do I need a credit card?"], "zh": ["哪个应用更好？", "外卖贵吗？", "我需要信用卡吗？"] }
+      },
+      {
+        "id": "step-2",
+        "title": { "en": "Browse or Search Restaurants", "zh": "浏览或搜索餐厅" },
+        "content": { "en": "You will see restaurants near you. You can browse by category: Chinese, American, Pizza, etc. Or search for a specific restaurant by name.", "zh": "您将看到附近的餐厅。您可以按类别浏览：中餐、美式、披萨等。或按名称搜索特定餐厅。" },
+        "visual": { "description": "DoorDash home screen with restaurant categories", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I find Chinese food?", "Can I filter by price?", "What if my favorite restaurant is not there?"], "zh": ["如何找到中餐？", "我可以按价格筛选吗？", "如果我最喜欢的餐厅不在那里怎么办？"] }
+      },
+      {
+        "id": "step-3",
+        "title": { "en": "Add Items to Your Cart", "zh": "将菜品添加到购物车" },
+        "content": { "en": "Tap on a restaurant to see their menu. Tap the + button next to any item you want. The item will be added to your cart at the bottom of the screen.", "zh": "点击餐厅查看菜单。点击任何您想要的菜品旁边的+按钮。该菜品将被添加到屏幕底部的购物车中。" },
+        "visual": { "description": "Restaurant menu with + button and cart at bottom", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I remove an item?", "Can I add special instructions?", "What if an item is sold out?"], "zh": ["如何删除菜品？", "我可以添加特殊说明吗？", "如果菜品售罄怎么办？"] }
+      },
+      {
+        "id": "step-4",
+        "title": { "en": "Place Your Order", "zh": "下单" },
+        "content": { "en": "Tap the cart button to review your order. Check the items and total price including delivery fee. When ready tap Place Order. Your food will arrive in 30-45 minutes!", "zh": "点击购物车按钮查看您的订单。检查菜品和包含配送费的总价。准备好后点击下单。您的食物将在30-45分钟内送达！" },
+        "visual": { "description": "Order review screen with Place Order button", "aspectRatio": "16:9" },
+        "suggestedQuestions": { "en": ["How do I track my order?", "What if the food is wrong?", "Can I tip the driver?"], "zh": ["如何追踪我的订单？", "如果食物有误怎么办？", "我可以给司机小费吗？"] }
       }
     ]
   }
