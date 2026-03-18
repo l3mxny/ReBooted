@@ -58,7 +58,7 @@ npm start
 ## 📁 Project Structure
 
 ```
-digimentor/
+rebooted/
 ├── app/                    # Next.js app router pages
 │   ├── layout.tsx         # Root layout with providers
 │   ├── page.tsx           # Home page
@@ -85,7 +85,7 @@ digimentor/
 
 ## 📋 Spec-Driven Development
 
-This project follows a comprehensive specification located in `.kiro/specs/digimentor/`:
+This project follows a comprehensive specification located in `.kiro/specs/rebooted/`:
 - `requirements.md` - 18 detailed requirements
 - `design.md` - Architecture and component specifications
 - `tasks.md` - Implementation task breakdown
