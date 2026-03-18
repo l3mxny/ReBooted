@@ -1,10 +1,12 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useProgress } from '@/contexts/ProgressContext';
 import LanguageToggle from './LanguageToggle';
 import WeekPathConnector from './WeekPathConnector';
+import EncouragementBanner from './EncouragementBanner';
 
 interface WeekDef {
   number: number;
@@ -69,6 +71,7 @@ export default function HomeScreen() {
   const router = useRouter();
   const { t, language } = useLanguage();
   const { progress } = useProgress();
+  const [codeCopied, setCodeCopied] = useState(false);
 
   const handleReset = () => {
     const confirmed = window.confirm(t('home.startOverConfirm'));
@@ -115,6 +118,13 @@ export default function HomeScreen() {
     t('home.completeWeekFirst').replace('{n}', String(n));
 
   const streak = progress.streak ?? 0;
+  const accessCode = progress.accessCode ?? '';
+
+  const handleCopyCode = () => {
+    navigator.clipboard.writeText(accessCode).catch(() => {});
+    setCodeCopied(true);
+    setTimeout(() => setCodeCopied(false), 2000);
+  };
 
   return (
     <div className="min-h-screen relative" style={{ backgroundColor: '#FFF8F0' }}>
@@ -164,6 +174,10 @@ export default function HomeScreen() {
       {/* Content */}
       <div className="p-8 relative">
         <div className="max-w-5xl mx-auto">
+
+          {/* Encouragement banner from family */}
+          {accessCode && <EncouragementBanner accessCode={accessCode} />}
+
           <h2 className="font-semibold text-center mb-8" style={{ fontSize: '28px', color: '#2C3E50', fontFamily: 'Nunito' }}>
             {t('home.journeyTitle')}
           </h2>
@@ -274,6 +288,35 @@ export default function HomeScreen() {
               {t('home.startOver')}
             </button>
           </div>
+
+          {/* Family Code */}
+          {accessCode && (
+            <div
+              className="mb-8 rounded-2xl p-6 text-center"
+              style={{ background: '#EDE9FE', border: '2px solid #DDD6FE' }}
+            >
+              <p style={{ fontSize: '14px', color: '#7C3AED', fontWeight: 700, fontFamily: 'Nunito', marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                Your Family Code / 家庭码
+              </p>
+              <button
+                onClick={handleCopyCode}
+                style={{
+                  fontSize: '36px', fontWeight: 800, color: '#4C1D95', fontFamily: 'Nunito',
+                  letterSpacing: '8px', background: 'none', border: 'none', cursor: 'pointer',
+                  display: 'block', margin: '0 auto 8px',
+                }}
+              >
+                {accessCode}
+              </button>
+              <p style={{ fontSize: '14px', color: codeCopied ? '#059669' : '#7C3AED', fontFamily: 'Nunito', fontWeight: 600 }}>
+                {codeCopied ? '✅ Copied!' : 'Tap to copy / 点击复制'}
+              </p>
+              <p style={{ fontSize: '13px', color: '#6B7280', fontFamily: 'Nunito', marginTop: '8px', lineHeight: '1.5' }}>
+                Share this with family to let them track your progress.<br />
+                在主页底部显示家庭码供老人分享
+              </p>
+            </div>
+          )}
 
           {/* Footer */}
           <div className="flex justify-center items-center gap-2 mb-24 pb-4">
