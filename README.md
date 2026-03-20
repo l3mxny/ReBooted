@@ -45,11 +45,11 @@ An AI tutor powered by Anthropic Claude thatresponds in English and Chinese, tra
 
 **Layer 3: Family Connection**
 
-A family portal where adult children monitor progress in real time via Firebase Realtime Database, send encouragement messages that appear as banners on the senior home screen, and track their loved one's daily streak. Together these three layers create something no existing app offers: a complete digital literacy companion that teaches, encourages, and connects — all in the user's language, at their pace, with their family alongside.
+A family portal where adult children monitor progress in real time via Firebase Realtime Database, send encouragement messages that appear as banners on the senior home screen, and track their loved one's daily streak. Together these three layers create something no existing app offers: a complete digital literacy companion that teaches, encourages, and connects all in the user's language, at their pace, with their family alongside.
 
 **Additional Features:**
 
-- Panic Button on every screen — addresses the "freeze moment" when seniors hit an unexpected screen and shut down
+- Panic Button on every screen (addresses the "freeze moment" when seniors hit an unexpected screen and shut down)
 - Daily streak counter with milestone celebrations visible to family
 - Confetti celebration on module completion
 - Bilingual toggle English/中文 persists across sessions
