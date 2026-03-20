@@ -2,10 +2,6 @@
 
 ### "Never too late to reboot"
 
-> A 4-week digital literacy curriculum for
-> Chinese-speaking senior citizens, built from
-> 4 years of real teaching experience.
-
 ## Demo Video
 
 https://youtu.be/maUVhdQqMD4
@@ -26,13 +22,11 @@ Chinese-speaking immigrant seniors struggle with technology not just because of 
 
 **Personal Origin Story:** I taught weekly technology and English lessons to 25+ Chinese-speaking senior citizens for 4 years, answering 50+ tech questions per month. ReBooted is built from 4 years of real observed struggles — not assumed user needs.
 
-> "I built ReBooted so seniors don't have to wait for someone like me to show up."
-
 ### Solution Summary & Key Features
 
 ReBooted is a Progressive Web App that transforms how Chinese-speaking seniors learn technology — not through a generic chatbot or a language translator, but through a structured curriculum built from 4 years of real classroom experience.
 
-Most technology tools assume you already know how to use technology. ReBooted starts from zero. Every screen is designed around one core insight gained from teaching seniors weekly: the biggest barrier is not language — it is confidence. Seniors do not fail because they cannot learn. They fail because existing apps were never designed for them.
+Most technology tools assume you already know how to use technology. ReBooted starts from zero. Every screen is designed around one core insight gained from teaching seniors weekly: the biggest barrier is not language: it is confidence. Seniors do not fail because they cannot learn. They fail because existing apps were never designed for them.
 
 ReBooted solves this in three layers:
 
@@ -47,7 +41,7 @@ A 4-week curriculum that mirrors a real class schedule. Seniors see one week at 
 
 **Layer 2: Patient AI Guidance**
 
-An AI tutor powered by Anthropic Claude that speaks at a 4th grade reading level, responds in English and Chinese, translates unfamiliar tech words on demand, and always ends with encouragement. Critically — seniors never face a blank box. Three pre-seeded questions appear on every step so they always know where to start.
+An AI tutor powered by Anthropic Claude thatresponds in English and Chinese, translates unfamiliar tech words on demand, and always ends with encouragement. Three pre-seeded questions appear on every step so they always know where to start.
 
 **Layer 3: Family Connection**
 
@@ -99,15 +93,13 @@ A family portal where adult children monitor progress in real time via Firebase 
 
 ### Spec-Driven Development
 
-ReBooted was built using Kiro's spec-first workflow — requirements and design documents were generated BEFORE any code was written.
+ReBooted was built using Kiro's spec-first workflow, requirements and design documents were generated BEFORE any code was written.
 
 **Workflow:** Requirements doc → Design doc → Task list → Implementation
 
-- **Requirements doc:** 18 requirements covering all user flows, accessibility rules, and bilingual requirements
-- **Design doc:** 39 correctness properties, full component specs, error handling matrix, testing strategy with fast-check property-based tests
-- **Task list:** 23 implementation tasks with 5 checkpoints for incremental validation
-
-**Key insight:** Spec-driven development forced edge cases to surface before building. Bilingual layout rendering differences, offline scenarios, and localStorage SSR fallbacks were all caught at the planning phase — not discovered mid-build.
+- **Requirements doc:** requirements covering all user flows, accessibility rules, and bilingual requirements
+- **Design doc:**  correctness properties, full component specs, error handling matrix, testing strategy with fast-check property-based tests
+- **Task list:**  implementation tasks with 5 checkpoints for incremental validation
 
 **Comparison to vibe coding:** Spec-driven development produced more consistent, accessible components. When constraints were defined upfront, Kiro applied them universally without needing corrections. Pure vibe coding without specs produced generic components that needed multiple rounds of accessibility fixes.
 
@@ -171,7 +163,7 @@ Kiro's MCP capabilities were used to:
 ### What I Would Do Differently
 
 - Set up all API keys before starting to build
-- Add real phone screenshots from day one
+- Have a clean set up before building
 - Use Firebase from the start instead of adding it as an afterthought
 
 ### Skills Gained
@@ -180,7 +172,6 @@ Kiro's MCP capabilities were used to:
 - Firebase Realtime Database architecture
 - Senior-accessible UI design principles
 - Bilingual React application architecture
-- PWA configuration with Next.js App Router
 
 ### Future Enhancements & Scaling Plans
 
