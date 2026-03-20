@@ -14,13 +14,13 @@ https://youtu.be/maUVhdQqMD4
 
 Chinese-speaking immigrant seniors struggle with technology not just because of language barriers, but because of tech anxiety, unfamiliar UI patterns, and lack of patient guidance.
 
-- Google Translate just converts words — it does not teach
+- Google Translate just converts words, it does not teach
 - ChatGPT requires you to know what to ask
 - No existing app is designed for seniors with low tech literacy and high anxiety
 
 **Target Users:** Chinese-speaking seniors (60+), low tech literacy, aging eyesight and limited dexterity, often living near adult children who are too busy to help.
 
-**Personal Origin Story:** I taught weekly technology and English lessons to 25+ Chinese-speaking senior citizens for 4 years, answering 50+ tech questions per month. ReBooted is built from 4 years of real observed struggles — not assumed user needs.
+**Personal Origin Story:** I taught weekly technology and English lessons to 25+ Chinese-speaking senior citizens for 4 years, answering 50+ tech questions per month. ReBooted is built from 4 years of real observed struggles, not assumed user needs.
 
 ### Solution Summary & Key Features
 
