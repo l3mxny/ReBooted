@@ -57,39 +57,8 @@ A family portal where adult children monitor progress in real time via Firebase 
 
 ---
 
-## 2. Design Decisions
 
-### Technology Choices & Alternatives Considered
-
-| Decision | Choice | Alternative | Reason |
-|---|---|---|---|
-| Database | Firebase Realtime DB | MongoDB | Faster setup, real-time sync built in |
-| AI Model | Anthropic Claude (claude-sonnet-4-5) | OpenAI, AWS Bedrock | Better tone control, bilingual quality |
-| Auth for seniors | None (localStorage) | Account creation | Frictionless — no login barrier |
-| Family linking | 6-digit code | Account-based | Can be written on paper |
-| State management | React Context API | Redux | Simpler for this scope |
-| i18n | Custom JSON solution | i18next | Lighter, full bilingual control |
-| Frontend | React + Next.js 14 + Tailwind | — | Builder existing skill set |
-
-### Trade-offs
-
-- **Simplicity over features:** Senior UX prioritized over feature count — 4 complete weeks beats 10 half-built modules
-- **Speed over scalability:** Firebase chosen for hackathon — AWS Bedrock noted as future enterprise scaling path
-- **Frictionless over secure:** No senior login — acceptable because data is non-sensitive progress tracking only
-- **Anthropic over AWS Bedrock:** Evaluated AWS Bedrock as alternative but chose direct Anthropic API for faster iteration and simpler authentication during hackathon. AWS Bedrock migration documented as future enhancement.
-
-### Security & Scalability Considerations
-
-- Claude API key stored server-side in Next.js API route — never exposed to client
-- Firebase rules: only document matching access code is readable
-- No PII stored — only progress state and optional name set by family member
-- Graceful degradation: app works offline for loaded content, Firebase sync is non-blocking
-- Scalability path: Firebase scales automatically, JSON-based modules require zero backend changes to add new content
-- Future: AWS Bedrock for enterprise AI inference at scale with same Claude models
-
----
-
-## 3. Kiro Usage
+## 2. Kiro Usage
 
 ### Spec-Driven Development
 
@@ -102,18 +71,6 @@ ReBooted was built using Kiro's spec-first workflow, requirements and design doc
 - **Task list:**  implementation tasks with 5 checkpoints for incremental validation
 
 **Comparison to vibe coding:** Spec-driven development produced more consistent, accessible components. When constraints were defined upfront, Kiro applied them universally without needing corrections. Pure vibe coding without specs produced generic components that needed multiple rounds of accessibility fixes.
-
-### Vibe Coding
-
-The initial kickoff prompt was highly detailed — covering problem statement, target users, features, tech stack, and design rules in one structured prompt.
-
-**Best code generation moments:**
-
-- Tasks 2 and 3: Kiro built both LanguageProvider and ProgressProvider including 6-digit access code generation, localStorage persistence, and SSR error handling in a single execution. Zero corrections needed.
-- Tasks 4 and 5: Complete home screen with colored module buttons, language toggle, panic button, and routing generated in one pass from spec.
-- Task 11: Entire AI tutor integration including API route, exponential retry logic, bilingual system prompt, suggested questions, and chat UI built from spec alone.
-
-**Conversation structure strategy:** Long detailed prompts with explicit constraints outperformed short prompts with corrections. Providing hex color values, pixel sizes, and Chinese text examples in the initial prompt produced senior-appropriate output immediately.
 
 ### Steering Docs
 
@@ -148,7 +105,7 @@ Kiro's MCP capabilities were used to:
 
 ---
 
-## 4. Learning Journey & Forward Thinking
+## 3. Learning Journey & Forward Thinking
 
 ### Biggest Challenges & How I Overcame Them
 
